@@ -1,0 +1,284 @@
+{
+  "Boruto: Naruto Next Generations": {
+    "title": "Boruto: Naruto Next Generations",
+    "titleO": "Boruto",
+    "titles": {
+      "en_jp": "Boruto: Naruto Next Generations",
+      "en_us": "Boruto: Naruto Next Generations",
+      "ja_jp": "BORUTO-ボルト- NARUTO NEXT GENERATIONS"
+    },
+    "description": "Pris en charge par le studio Pierrot, Boruto : Naruto Next Generations est une nouvelle adaptation animée tirée de l'illustre franchise Naruto conçu par Masashi Kishimoto. Cette nouvelle production animée se définit comme la suite de l'anime Naruto Shippuden et se centre principalement sur les péripéties de Boruto Uzumaki, le rejeton de Naruto et Hinata.  Depuis que son père occupe la plus haute fonction du village de Konoha, Boruto Uzumaki, le fils de Nanadaime Hokage et Hinata Hyuga, vit dans l'ombre de son père. Cherchant toujours à attirer l'attention de ce dernier, Boruto a pris la ferme résolution de surpasser son paternel. Mais la vie que mènent les ninjas de haute-volée est rythmée par les missions complexes et les entraînements rigoureux, notre jeune héros va d'ailleurs, apprendre à ses dépens que devenir le meilleur ninja, n'est point une tâche aisée. En compagnie de Sarada, l'enfant de Sasuke Uchiha et Sakura Haruno, Boruto va dès lors découvrir le monde des shinobis, ainsi que ses fondements...",
+    "categories": [
+      "Action",
+      "Aventure",
+      "Comédie",
+      "Drame",
+      "Nekketsu",
+      "Shônen",
+      "Surnaturel"
+    ],
+    "nsfw": false,
+    "banner": "https://media.kitsu.io/anime/13051/cover_image/fbc2a96681124b54663b34d414b748c8.jpg",
+    "poster": "https://media.kitsu.io/anime/13051/poster_image/7711f4f9eaf520aab702f00d8c7dd22c.jpg",
+    "saisons": {
+      "Saison 1": {
+        "Épisode 1": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/9u7knjgk"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/vywepr4b"
+          }
+        },
+        "Épisode 2": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/w2ic36iq"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/l764e2vv"
+          }
+        },
+        "Épisode 3": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/6k4vy6q0"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/0gz8chv3"
+          }
+        },
+        "Épisode 4": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/o4k44psr"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/9h5v6jzm"
+          }
+        },
+        "Épisode 5": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/cmva6665"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/zivtngf6"
+          }
+        },
+        "Épisode 6": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/994k50cf"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/wkqzvbbf"
+          }
+        },
+        "Épisode 7": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/hiwpu10h"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/h0fmbg0r"
+          }
+        },
+        "Épisode 8": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/re6jgzla"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/0i6b8ram"
+          }
+        },
+        "Épisode 9": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/8orih6ow"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/ezntgg2n"
+          }
+        },
+        "Épisode 10": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/433hbp5f"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/nxnw4oph"
+          }
+        },
+        "Épisode 11": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/hqiec383"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/wz1m1xdj"
+          }
+        },
+        "Épisode 12": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/1skn568e"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/kwaiwlcn"
+          }
+        },
+        "Épisode 13": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/4u2rvwk4"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/d8cih83g"
+          }
+        },
+        "Épisode 14": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/yiur9b2b"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/iqnyf40d"
+          }
+        },
+        "Épisode 15": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/gi48d4ma"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/d9g2jb41"
+          }
+        },
+        "Épisode 16": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/0oihwa1x"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/hmxncuml"
+          }
+        },
+        "Épisode 17": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/6ll9pdax"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/cenvivgi"
+          }
+        },
+        "Épisode 18": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/6nwhbk03"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/qprgrrcy"
+          }
+        },
+        "Épisode 19": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/a9xurvsy"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/hvzro1vg"
+          }
+        },
+        "Épisode 20": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/syvqpoxc"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/1ag6yha6"
+          }
+        },
+        "Épisode 21": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/tar726z9"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/rbjhj0kv"
+          }
+        },
+        "Épisode 22": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/4mz1llek"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/u06x2zco"
+          }
+        },
+        "Épisode 23": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/cen6a1gi"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/01v4pxx2"
+          }
+        },
+        "Épisode 24": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/ei42is7k"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/4t6edaly"
+          }
+        },
+        "Épisode 25": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/w9j7x36y"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/eknh2y8f"
+          }
+        },
+        "Épisode 26": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/6y59t2fs"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/t0acccdv"
+          }
+        },
+        "Épisode 27": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/2nx442dg"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/95ekehrn"
+          }
+        },
+        "Épisode 28": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/q6ql64x8"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/ru1ppan3"
+          }
+        },
+        "Épisode 29": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/xxkuxs98"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/rgevoe4i"
+          }
+        },
+        "Épisode 30": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/njn3e42d"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/y9llpywa"
+          }
+        },
+        "Épisode 31": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/nyqkor00"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/m0tqqfiu"
+          }
+        },
+        "Épisode 32": {
+          "vf": {
+            "sendvid": "https://sendvid.com/embed/ows37puh"
+          },
+          "vo": {
+            "sendvid": "https://sendvid.com/embed/ag7i3i58"
+          }
+        }
+      }
+    }
+  }
+}
