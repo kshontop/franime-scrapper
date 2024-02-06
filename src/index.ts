@@ -45,7 +45,7 @@ async function main() {
                 if (!fina_result[anime.title]["saisons"][saison.title][episode.title]) {
                     fina_result[anime.title]["saisons"][saison.title][episode.title] = {}
 
-                    const lestrucptn: { [key: string]: { [key: string]: string } } = {}
+                    const lestrucptn: {[key: string]: { [key: string]: string }} = {}
 
                     const episodeIndex = saison.episodes.indexOf(episode);
                     for (const [lang, _] of Object.entries(episode.lang)) {
@@ -66,6 +66,15 @@ async function main() {
                                         await new Promise(resolve => setTimeout(() => resolve(""), 30e3));
                                     }
                                     response = await axios.get(url, { headers })
+                                } else if (response.status !== 200){
+                                    const logsFilePath = path.join(__dirname, "../data/logs.txt");
+                                    const logMessage = `${new Date().toISOString()} - Not found: ${createUrl(anime.id, saisonIndex, episodeIndex, lang, 21032006).replace("21032006", "lecteur")} \n`;
+                                    await fs.appendFile(logsFilePath, "\n" + logMessage, "utf-8");
+        
+                                    if (!lestrucptn) { 
+                                        fina_result[anime.title]["saisons"][saison.title][episode.title] = "Not found: " + createUrl(anime.id, saisonIndex, episodeIndex, lang, 21032006).replace("21032006", "lecteur")
+                                    }
+                                    continue;
                                 }
                                 if (response.data) {
                                     lestrucptn[lang]["sibnet"] = response.data
@@ -83,6 +92,15 @@ async function main() {
                                         await new Promise(resolve => setTimeout(() => resolve(""), 30e3));
                                     }
                                     response = await axios.get(url, { headers })
+                                } else if (response.status !== 200){
+                                    const logsFilePath = path.join(__dirname, "../data/logs.txt");
+                                    const logMessage = `${new Date().toISOString()} - Not found: ${createUrl(anime.id, saisonIndex, episodeIndex, lang, 21032006).replace("21032006", "lecteur")} \n`;
+                                    await fs.appendFile(logsFilePath, "\n" + logMessage, "utf-8");
+        
+                                    if (!lestrucptn) { 
+                                        fina_result[anime.title]["saisons"][saison.title][episode.title] = "Not found: " + createUrl(anime.id, saisonIndex, episodeIndex, lang, 21032006).replace("21032006", "lecteur")
+                                    }
+                                    continue;
                                 }
                                 if (response.data) {
                                     lestrucptn[lang]["sendvid"] = response.data
@@ -92,10 +110,10 @@ async function main() {
                             }
                             await new Promise(resolve => setTimeout(() => resolve(""), 100));
                         }
-                    }
 
-                    fina_result[anime.title]["saisons"][saison.title][episode.title] = lestrucptn
-                    await fs.writeFile(thePath.replace("result", "data"), JSON.stringify(fina_result, null, 2))
+                        fina_result[anime.title]["saisons"][saison.title][episode.title] = lestrucptn
+                        await fs.writeFile(thePath.replace("result", "data"), JSON.stringify(fina_result, null, 2))
+                    }
                 }
             }
         }
